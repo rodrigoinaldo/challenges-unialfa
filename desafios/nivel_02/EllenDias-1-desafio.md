@@ -4,5 +4,6 @@
 * *Alterado a porta que estava "9999" e alterei para "8889"*
 ## **Index** 
 * *Inserido o HTML no INDEX.* 
-* *alterado variavel de conexão com o banco de dados que era ($sqls) e inseri ($sql).
+* *alterado variavel de conexão com o banco de dados que era ($sqls) e inseri ($sql).*
 * *Colocado ponto e virgula após essa mesma variável.*
+* *Retirado linha com o parametro pois não havia parametros para ser passado*
