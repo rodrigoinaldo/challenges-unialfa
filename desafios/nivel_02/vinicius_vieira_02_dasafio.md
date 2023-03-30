@@ -7,6 +7,3 @@ Foi necessário apagar a linha 8
 
 * Já em connection.php foi necessário nomear o banco conforme estava no MySQL, por estarmos utilizando o MAMP na linha 4 a senha padrão deve ser “roots”
 após isso  foi necessário ajustar a porta do banco de dados para 8888 
-
-
-commit testando
