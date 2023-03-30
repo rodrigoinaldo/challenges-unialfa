@@ -21,5 +21,4 @@ $fp = fopen('persons.csv', 'w');
 foreach($list as $campos){
     fputcsv($fp, $campos);
 }
-
 ~~~
