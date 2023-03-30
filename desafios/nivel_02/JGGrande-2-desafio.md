@@ -14,9 +14,7 @@ $list = array(
 ~~~php
 $fp = fopen('persons.csv', 'w');
 ~~~
-
 #### Por ultimo inserimos os dados do array no csv 
-
 ~~~php
 foreach($list as $campos){
     fputcsv($fp, $campos);
