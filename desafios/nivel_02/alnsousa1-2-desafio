@@ -1,0 +1,9 @@
+#Criando arquivo Excel pelo php
+
+* Primeiramente, criamos um arquivo .php e criamos um array
+
+* criamos um arquivo e executamos, utilizando a funcao FOPEN
+
+* utilizando um foreach, percorremos o array, escrevendo as linhas csv
+
+* por fim, fechamos o arquivo utilizando fclose($arquivo)
