@@ -8,4 +8,4 @@
 * Faltava criar o banco de dados, pois não tinha no projeto.
 * Deletar a senha que contem dentro da aspas na linha 4, em connection.php
 * Alterar o nome do banco de dados na linha 5, para o nome do banco de dados que foi criado.
-* Também foi alterado a porta do xamp no codigo, para 3306.
+* Também foi alterado a porta do xamp no codigo, para 3306..
