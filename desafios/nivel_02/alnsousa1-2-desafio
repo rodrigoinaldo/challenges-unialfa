@@ -7,3 +7,25 @@
 * utilizando um foreach, percorremos o array, escrevendo as linhas csv
 
 * por fim, fechamos o arquivo utilizando fclose($arquivo)
+
+
+<?php
+    $dados = [
+        "Allan",
+        "Doutor",
+        "Monica",
+        "Tadala"
+    ];
+    //criei uma variavel $dados, que recebe um array
+
+    $arquivo = fopen('arquivoExel.csv', 'w');
+    // aqui uma variavel $arquivo está sendo criada e com a funcao FOPEN estamos executando um arquivo chamado arquivoExcel.csv, em modo de escrita
+
+    foreach($dados as $row_dado){
+        fputcsv($arquivo, [$row_dado], ';');
+
+        //aqui estamos fazendo o uso do laço de repetição foreach para percorrer o array $dados e escrever as linhas csv
+    }
+    fclose($arquivo);
+    //aqui estamos fechando o arquivo
+    ?>
