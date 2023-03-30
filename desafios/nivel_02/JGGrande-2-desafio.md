@@ -20,3 +20,8 @@ foreach($list as $campos){
     fputcsv($fp, $campos);
 }
 ~~~
+
+#### para evitar possivel estouro de memória fechamos o arquivo com flcose()
+~~~php
+fclose($fp);
+~~~
