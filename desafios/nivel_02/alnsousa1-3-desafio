@@ -1,0 +1,8 @@
+<?php
+    $texto = "O Tadala aguenta 50 na rosca";
+
+    $textoCriptografado = base64_encode($texto);
+    $textoDescriptografado = base64_decode($textoCriptografado);
+
+    echo "O valor do texto criptografado é: $textoCriptografado, e seu valor original é: $textoDescriptografado"; 
+?>
