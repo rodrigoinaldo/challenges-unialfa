@@ -33,7 +33,7 @@
 ### indo para decript.php, aqui será descryptografado os dados, recebendo as variaveis de data.php e a variavel $encriptString de encript.php  será utilizado o método sodium_crypto_aead_aes256gcm_decrypt() passando esses dados como parametro.
 
 ~~~php
-    < ?php
+    <?php
     require"./data.php";
     require"./encript.php";
 
