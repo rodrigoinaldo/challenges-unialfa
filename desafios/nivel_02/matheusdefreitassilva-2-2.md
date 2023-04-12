@@ -4,6 +4,8 @@
 
 * atraves do foreach, percorremos o array, escrevendo as linhas csv
 
+
+~~~php
 <?php
 
 // Cabeçalho do csv
@@ -40,3 +42,4 @@ foreach ($dados as $linha ) {
 fclose($arquivo);
 
 ?>
+~~~
