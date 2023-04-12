@@ -29,7 +29,9 @@ $dados = [
         'preco' => 432,
     ],
 ];
+~~~
 
+~~~php
 $arquivo = fopen('file.csv', 'w');
 
 // Criar do cabeçalho
