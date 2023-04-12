@@ -1,3 +1,5 @@
+# Desafio 3
+~~~php
 <?php
 
 // Gerando uma chave criptografada
@@ -22,3 +24,4 @@ if ($conteudo === false)
 $mDescriptografada = "\n Mensagem Descriptografada: " . $conteudo;
 
 echo $mDescriptografada;
+~~~
