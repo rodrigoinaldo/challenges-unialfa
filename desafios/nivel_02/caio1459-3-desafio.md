@@ -14,7 +14,7 @@
     $key = sodium_crypto_aead_chacha20poly1305_ietf_keygen();
 
     //criptografar
-    $texto = 'Bahh é os guri'; 
+    $texto = 'Baahh é os guri'; 
 
     $nonce = random_bytes(SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NPUBBYTES);
 
