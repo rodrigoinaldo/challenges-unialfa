@@ -7,7 +7,7 @@
 ### 1ª Forma
 
 *Traz um resultado hexadecimal*
-<?php
+```php
 
 $mensagem = 'Raphael Pitol Juliani';
 $encriptado = sodium_bin2hex($mensagem);
@@ -19,8 +19,10 @@ $decriptado = sodium_hex2bin($encriptado);
 echo '<br>';
 
  echo $decriptado;
-
+ ?>
+```
  ### 2ª Forma
+ ```php
  $key = random_bytes(SODIUM_CRYPTO_SECRETBOX_KEYBYTES);
 $nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);
 const mensagem = "Consegui usar o Sodium para criptografar";
@@ -34,8 +36,10 @@ $conteudosenha = sodium_crypto_secretbox_open($senha, $nonce, $key);
 
 echo '<br>';
 echo $conteudosenha;
-
+?>
+```
  ### 3ª Forma
+ ```php
  $mensagem = " <=Raphael Pitol Juliani=> ";
 $cipher = "AES-256-CBC";
 $secret = "1234567890123456789012";
@@ -52,3 +56,5 @@ $decryptedString = openssl_decrypt($encryptedString, $cipher, $secret, $options,
 
 
 echo $decryptedString;
+?>
+```
