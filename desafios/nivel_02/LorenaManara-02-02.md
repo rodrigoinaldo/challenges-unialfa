@@ -1,3 +1,4 @@
+~~~php
 <?php
 
     $pessoas = array(
@@ -24,3 +25,4 @@ foreach ($pessoas as $nome =>$idade) {
 fclose($fp);
 
 ?>
+~~~

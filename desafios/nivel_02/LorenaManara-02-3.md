@@ -1,3 +1,4 @@
+~~~php
 <?php
     // Gerando uma chave criptografada
     $key = random_bytes(SODIUM_CRYPTO_SECRETBOX_KEYBYTES);
@@ -23,3 +24,4 @@
     echo $conteudo;
 
 ?>
+~~~
