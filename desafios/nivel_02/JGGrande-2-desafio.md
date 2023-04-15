@@ -1,4 +1,4 @@
-### Exercício 3
+### Exercício 2
 
 #### O programa funciona de modo simples, é criado um array que representa as tabelas de um arquivo Excel com uma estrutura simples, funciona como um vetor, o pirmeiro index do array principal é a linha o segundo indexe do arrary segundario é a coluna da tabela Excel, 
 ~~~php
