@@ -1,0 +1,11 @@
+//Desafio02
+
+//Configurar a conexão com o banco de dados na linha 5 do arquivo "connection"
+//Configurar a senha na linha 4 do arquivo "connection"
+//Configurar a port do banco na linha 8 do arquivo "connection" para fazer a conexão correta com o banco
+
+//Criar o banco de dados e a tabela
+
+//Corrigir o erro de sintaxe na linha 7 na variavel "slq" do arquivo "index"
+//Na mesma linha incluir o ; para encerrar a linha do código do arquivo "index"
+//Remover a linha 8 do arquivo "index" porque o código não era necessario, de maneira que pode danificar o código
