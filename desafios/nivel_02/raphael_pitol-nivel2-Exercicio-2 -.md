@@ -1,4 +1,4 @@
-### Resolução Nivel 2 Desafio 2
+### Resolução Desafio 2 Exercicio 2
 
 *Criei um array ->cabeçalho com "id","nome","e-mail","endereco".
 *Criei outro array ->nomes com "id","nome","e-mail","endereco" referenciando os dados para o cabeçalho.
