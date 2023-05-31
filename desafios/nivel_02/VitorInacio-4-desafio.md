@@ -1,7 +1,9 @@
 ### Desafio usando SESSION
 
 ### form.php
-* No form.php eu fiz uma verificação, caso tenha algum valor via POST, vai verificar se a senha ou o login estão corretos, e aí sim vai criar uma SESSION 
+* No form.php eu fiz duas verificações: 
+* 1º Caso tenha algum valor via POST, vai verificar se a senha ou o login estão corretos, e aí sim vai criar uma SESSION 
+* 2º Verifica se a senha e o login estão corretos
 
 ~~~ php
 <?php
