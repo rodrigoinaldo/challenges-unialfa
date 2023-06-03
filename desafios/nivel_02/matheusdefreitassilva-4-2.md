@@ -1,4 +1,4 @@
-#### Desafio 2 Ex-4 Atividade.
+#### Desafio 2 Ex-4 Atividade segundo Bimestre.
 ---
 *Crie dois arquivos PHP:
 O primeiro deve conter um formulário com dois campos: login, password
@@ -14,7 +14,7 @@ login.php
         $login = $_POST['login'] ?? null;
         $senha = $_POST['senha'] ?? null;
 
-        if ($login & $senha) {
+        if (isset($login) && isset($senha)) {
             $_SESSION['login'] = $login;
             $_SESSION['senha'] = $senha;
     
@@ -58,7 +58,8 @@ index.php
 <body>
     <h1>Informaçoes do login</h1>
     <?php
-        print_r($_SESSION);
+        echo "Login: " . $_SESSION['login'] . "<br>";
+        echo "Senha: " . $_SESSION['senha'] . "<br>";
     ?>
     <a href="login.php">Voltar</a>
 </body>
