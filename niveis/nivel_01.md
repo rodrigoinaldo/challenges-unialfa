@@ -28,7 +28,15 @@
     10. A cor do botao de detalhes deve ser #FFCB00
     11. Por volta de cada coluna, para ficar mais elegante, adicione um sombra com o CSS, usando de valor da propriedade: 0 0 20px #999
     12. Crie arquivos HTML com detalhes de cada carro de acordo com os links adicionados no botao Detalhe.
-    13. No Menu Contato escreva um formulário contendo os seguintes campos: Nome, Email, Telefone, Idade
+    13. No Menu Contato, carregue o bootstrap e escreva um formulário contendo os seguintes campos: Nome, Email, Telefone, Idade
     14. No Menu de Carros escreva uma página que liste todos os carros do diretório imagens
     15. No Menu de Sobre tente escrever uma página elegante usando divs, h1, listagens e paragrafos
     16. Desenvolva um Footer para o final de cada página, incluindo o seu nome
+4. Implemente as Tags: 
+    ```` HTML
+    <ul></ul>, <ol></ol>, <li></li>, <dt></dt>, <dd></dd>
+    ````
+    de acordo com o exemplo abaixo:
+    ![Imagem do exemplo](../imagens/nivel_01/desafio_html.png)
+5. Desenvolva o HTML e CSS do layout abaixo:
+    ![Layout Exercicio 05](../imagens/nivel_01/ex05_layout.png)
