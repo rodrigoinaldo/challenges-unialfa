@@ -40,3 +40,22 @@
     ![Imagem do exemplo](../imagens/nivel_01/desafio_html.png)
 5. Desenvolva o HTML e CSS do layout abaixo:
     ![Layout Exercicio 05](../imagens/nivel_01/ex05_layout.png)
+6. Desenvolver uma página HTML igual ao formulário abaixo, usando bootstrap:
+    > Observacoes importantes:
+    1. Parar alinhar os campos um ao lado do outro, usar o grid do bootstrap: https://getbootstrap.com/docs/5.3/layout/grid/
+    2. Os campos (inputs) devem ter os tipos corretos.
+    ![Layout Exercicio 05](../imagens/nivel_01/form_ex-06.png)
+7. Estudar a documentação da w3Schools sobre responsividade: https://www.w3schools.com/css/css_rwd_intro.asp
+8. Desenvolver uma página HTML igual a imagem abaixo:
+    ![Layout Exercicio 08](../imagens/nivel_01/layout-grid-flexbox.png)
+    1. O layout dessa página deve ser utilizado o CSS GRID e FLEXBOX.
+
+        **DICA**: A parte do FOOTER (ali deve ser utilizado o flexbox) o restante será em GRID
+
+        **DICA ll**: Propriedades que deve ajudar a montar o layout: **display: grid, grid-template-columns, grid-template-rows, grid-template-areas, grid-area. display: flex, justify-content: space-evenly**.
+9. Aprveitando ainda o projeto do exercicio 07, foi visto a necessidade de ajustar o layout para as versões mobile, segue abaixo exemplo de como deve ficar o layout em resoluções menores:
+    ![Layout Exercicio 09](../imagens/nivel_01/layout-grid-flex-responsive.png)
+    Dica: No CSS para ajustar as grids e o flexbox, deve-se usar **@media(max-width: TAMNHO DAS TELAS) {}**
+10. Com base no exercicio 06, escreva um script com Javascript, capaz de capturar os dados digitados no formulário e imprimir no console.log
+    1. O console.log é uma função do Javascript, ela imprime o que passarmos dentro da função, é possível visualizar esse log no inspecionar elemento do navegador na aba **Console**.
+    2. Na w3Schools tem um exemplo passando o valor para um campo input, no caso faremos o inverso, pegar o valor digitado no input, mas serve como exemplo: https://www.w3schools.com/JSREF/prop_number_value.asp
