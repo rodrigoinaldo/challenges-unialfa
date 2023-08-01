@@ -28,3 +28,5 @@
     5. Desenvolver uma API com o endpoint **/chat**
     6. Enviar para a openIA através da lib que foi instalada o prompt passando alguma mensagem do que você quer
     7. Ao obter a reposta, guarde em um arquivo de LOG.
+5. Clonar o repositório a seguir e resolver os bugs https://github.com/alexmpereira/php-xdebug
+    OBS: Como resposta ao desafio, crie um arquivo markdown e coloque as soluções e explicando.
