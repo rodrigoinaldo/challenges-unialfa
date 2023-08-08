@@ -30,3 +30,5 @@
     7. Ao obter a reposta, guarde em um arquivo de LOG.
 5. Clonar o repositório a seguir e resolver os bugs https://github.com/alexmpereira/php-xdebug
     OBS: Como resposta ao desafio, crie um arquivo markdown e coloque as soluções e explicando.
+6. Clonar o repositório a seguir realizar a refatoração de boas práticas https://github.com/alexmpereira/good-coding-practices
+    OBS: Como resposta ao desafio, crie um arquivo markdown e coloque as soluções e explicando.
