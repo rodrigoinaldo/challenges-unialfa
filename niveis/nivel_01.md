@@ -59,3 +59,16 @@
 10. Com base no exercicio 06, escreva um script com Javascript, capaz de capturar os dados digitados no formulário e imprimir no console.log
     1. O console.log é uma função do Javascript, ela imprime o que passarmos dentro da função, é possível visualizar esse log no inspecionar elemento do navegador na aba **Console**.
     2. Na w3Schools tem um exemplo passando o valor para um campo input, no caso faremos o inverso, pegar o valor digitado no input, mas serve como exemplo: https://www.w3schools.com/JSREF/prop_number_value.asp
+11. Usando a tag table do HTML crie uma tabela com as seguintes colunas: Nome, Idade, e-mail, Endereço.
+    1. Faça a estilização dessa tabela usando o CSS ou use o Bootstrap.
+12. Crie uma página HTML que o Footer/Rodapé fique na parte inferir da página
+13. Desenvolva um formulário contendo os seguintes inputs: Nome e Email.
+    1. Em seguida Estilize com CSS este formulário
+    2. Configure o formulário para ao clicar em enviar, chame uma função Javascript.
+        Essa função deve capturar os valores dos campos Nome e Email e fazer a seguinte validação:
+        Caso o campo Nome OU Email for vazio, chamar a função alert("Preencha todos os campos")
+14. Estilize um elemento HTML quando o mouse passa sobre ele
+    Pode ser uma div contendo um texto dentro.
+15. Utilizando a tag iframe, crie um página HTML que mostre um vídeo do youtube.
+    Use o CSS para deixar elegante a página.
+16. Em um dos desafios, pegue o HTML e adicione as metas tags para SEO no cabeçalho.
