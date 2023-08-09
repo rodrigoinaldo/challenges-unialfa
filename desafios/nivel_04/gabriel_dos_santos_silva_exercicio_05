@@ -1,0 +1,15 @@
+## EXERCÍCIO 05:
+
+- erro 01: faltou acrescentar um ";" na linha 6.
+
+- erro 02: faltou definir o atributo "age" da classe Person.
+
+- erro 03: faltou criar a função "multiply".
+
+- erro 04: foi preciso alterar o tipo de retorno da função de "int" para "float".
+
+- erro 05: erro era que o atributo balance era privado, uma solução é trocar de private para public, porém criei um método na classe para retornar esse atributo privado.
+
+- erro 06: o método estático concatenate espera 2 parametros, estava passando apenas 1. Passei um segundo parametro e funcionou.
+
+- erro 07: foi declarado uma variavel "minimumValue" da classe "DiscountCalculator", para evitar variações do valor minimo, mantendo sempre o fixo.
