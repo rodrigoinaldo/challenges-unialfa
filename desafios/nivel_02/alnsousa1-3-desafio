@@ -1,0 +1,26 @@
+<?php
+    //gera uma chave criptografada
+    $key = random_bytes(SODIUM_CRYPTO_SECRETBOX_KEYBYTES);
+
+    //cria um numero unico para a criptografia
+    $nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);
+
+    //criptografando a msg
+    $msgCriptografada = sodium_crypto_secretbox('O Tadala aguenta muuuuito na rosca!', $nonce, $key);
+
+
+    $conteudo = sodium_crypto_secretbox($msgCriptografada, $nonce, $key);
+
+    //a funcao sodium_crypto_secretbox_open é usada para descriptografar
+    $msgDescriptografada = sodium_crypto_secretbox_open($msgCriptografada, $nonce, $key);
+
+    if($conteudo == false) {
+        var_dump('ERRO!');
+    }
+
+    // se descomentarmos esse echo abaixo, iremos exibir a mensagem criptografada em hexadecimal
+    // echo sodium_bin2hex($conteudo);
+
+    // se descomentarmos esse echo abaixo, iremos exibir a mensagem descriptografada
+    // echo $msgDescriptografada;
+?>

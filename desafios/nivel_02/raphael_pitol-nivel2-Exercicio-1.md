@@ -1,4 +1,4 @@
-####Resolução desafio 02
+####Resolução desafio 02 Exercicio 1
 
 *Primeiramente fiz a configuração da conecção com o banco
 *Alterando o campo senha pra =>"" (vazia).

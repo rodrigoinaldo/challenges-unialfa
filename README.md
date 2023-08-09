@@ -1,32 +1,19 @@
 # Objetivo
-_O repositório tem como objetivo ser usado para praticar códigos através de desafios_. Esses desafios serão descritos e categorizados por níveis.
+_Ser usado para praticar códigos através de desafios_. 
 
-O __participante__ poderá realizar os __Pull Requests__ tanto de sugestão de novos desafios quanto de respostas de desafios.
-__Exemplo de publicar a resposta do desafio.:__ _Fez um desafio do nível um, deve-se ter um arquivo no diretório **desafios/nivel_01** contendo o arquivo no formato **.md** seguindo o padrão de exemplo._
+Esses desafios serão descritos e categorizados por **níveis**.
 
-> **OBS**: Mais a abaixo explicamos como enviar sugestão de novos desafios.
+O __participante__ poderá realizar os __Pull Requests__ tanto de sugestão de novos desafios como também das respostas dos desafios.
+<hr>
 
-## Explicaçao de cada nível
-- Nível 01
-  - Aqui é a base de tudo, desafios de HTML, CSS e Javascript básico. 
-- Nível 02
-  - Esse nível avançaremos com o backend e páginas dinamicas. A parte de HTTP se enquadra nessa area também.
-- Nível 03
-  - loading
-- Nível 04
-  - Assuntos de frameworks avançados, testes unitários etc
+## Os níveis
+> Os níveis são considerados desde o básico (nivel 01), até o mais avançado (nível 04), podendo futuramente surgir mais níveis.
+<hr>
 
 ## Como enviar seu desafio respondido
-1. Antes de qualquer coisa, faça o **Fork** desse repositório.
-2. Dentro do seu repositório crie o arquivo dentro do nível que voce fez do desafio, esse arquivo deve estar com o seu nome + numero do desafio, por exemplo: **alex_pereira_01_desafio.md**
-3. Coloque os códigos dentro desse arquivo criado.
-4. Realize o pull request para o repositório principal.
 
-> A lista de desafios se encontra na pasta níveis.
+[Vídeo explicando a dinâmica](https://youtu.be/jAxXOvKve5k)
 
-## Como colaborar com novos desafios
-1. Faça o fork desse repositório
-2. Dentro da pasta **niveis** escreva dentro do nível correspondente a sua sugestao do desafio que se enquadra nos requisitos
-3. Realiaze o pull request para o repositório principal.
+<hr>
 
-## Colaboradores
+> Para colaborar com novos desafios, a dinâmica é bem parecida com a de enviar as respostas. Faça um Pull request alterando o nível, adicionando o desafio que deseja sugerir.
